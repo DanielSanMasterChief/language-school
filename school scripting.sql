@@ -38,4 +38,8 @@ SELECT C.Id, C.Name
 	FROM Subjects A
 	INNER JOIN TeacherSubjects B ON A.Id = B.SubjectId
 	INNER JOIN Teachers C ON B.TeacherId = C.Id
-	WHERE A.Name = 'English'
+	WHERE A.Name = 'English'	        
+
+
+
+
